@@ -57,5 +57,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://noithatbe.onrender.com"
+  "proxy": "http://localhost:3002"
 }
