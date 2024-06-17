@@ -14,7 +14,7 @@
     "axios": "^1.2.0",
     "bootstrap": "^5.3.3",
     "dotenv": "^16.0.3",
-    "flickity": "^3.0.0",
+    "flickity": "^2.2.1",
     "flickity-fade": "^2.0.0",
     "jwt-decode": "^3.1.2",
     "react": "^18.2.0",
