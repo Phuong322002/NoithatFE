@@ -36,7 +36,7 @@ import videohome1 from '../../assets/images/videohome1.mp4'
 
 import { WrapperButtonMore, WrapperProducts, WraperMain } from './style';
 import './homePage.scss';
-import CustomerAndPartner from '../Footer/FooterComponent';
+// import CustomerAndPartner from '../Footer/FooterComponent';
 import Footer from '../Footer/ContactComponent';
 const HomePage = () => {
   const [typeProduct, setTypeProduct] = useState([]);
@@ -231,9 +231,6 @@ const HomePage = () => {
               </div>
               <hr />
 
-              <div className='footer'>
-                <CustomerAndPartner />
-              </div>
               <div className='contact'>
                 <Footer />
               </div>
