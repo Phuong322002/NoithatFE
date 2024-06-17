@@ -1,0 +1,80 @@
+// .container-header{
+//         position: relative;
+//     .tool-navigate{
+//         display: flex;
+//         gap: 10px;
+//         position: absolute;
+//         left: -195px;
+//         margin-top: 8px;
+//         font-size: 15px;
+//         position: relative;
+//         .category{
+//             position: relative;
+//             &:hover + .hide {
+//                 display: block;
+//                 color: red
+//             }
+//             display: flex;
+//             align-items: center;
+//             // justify-content: center;
+            
+//         }
+
+//        .hide{
+//                 position: absolute;
+//                 top: -10;
+//                 right: 0;
+//                 display: none;
+//                 position: absolute;
+//                 bottom: -40px;
+//                 height: 40px;
+//                 border: 1px  solid;
+//             }
+//     }}
+
+    .category {
+        position: relative;
+        // display: inline-block;
+      }
+      
+      .dropdown-content {
+        // display: none;
+        position: absolute;
+        background-color: rgba(240, 248, 255, 0.9 );
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        margin-left: 20px;
+      }
+      
+      // .category:hover .dropdown-content {
+      //   display: block;
+      // }
+
+      .tool-navigate{
+                display: flex;
+                gap: 10px;
+                position: absolute;
+                left: -220px;
+                margin-top: 8px;
+                font-size: 15px;
+                position: relative;
+                margin-top: 30px;
+      }
+
+     .container-header{
+      position: relative;
+      
+      .input-search{
+margin-left: 80px;
+        .search-icon{
+          position: absolute;
+          top: 10px;
+          right: 360px;
+          font-size: 15px;
+                }
+      }
+   
+     } 
+
+     
