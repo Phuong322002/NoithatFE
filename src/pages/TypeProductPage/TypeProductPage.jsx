@@ -12,7 +12,7 @@ import slider1 from '../../assets/images/ss1.webp'
 import slider2 from '../../assets/images/ip2.png'
 import slider3 from '../../assets/images/ss3.png'
 import PerfectScrollbar from 'react-perfect-scrollbar';
-
+import './typePro.scss'
 const TypeProductPage = () => {
   const searchProduct = useSelector((state) => state?.product?.search);
   const searchDebounce = useDebounce(searchProduct, 500);
@@ -48,11 +48,19 @@ const TypeProductPage = () => {
     setPagination({ ...pagination, page: current - 1 });
   };
 
+  console.log('state: ', state)
+
   return (
 
     <Loading isPending={loading}>
+      <div className='header-main'>
+        <div className='header-type'>
+          {state}
+        </div>
+      </div>
+
       <PerfectScrollbar>
-        <div style={{ width: '100vw', background: '#efefef', height: 'calc(100vh - 100px)' }}>
+        <div style={{ width: '100vw', background: '#efefef', height: 'calc(100vh - 145px)' }}>
 
           <div style={{ width: '1270px', margin: '0 auto', height: '100%' }}>
 
